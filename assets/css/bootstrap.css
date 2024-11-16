@@ -7943,12 +7943,20 @@ button.bg-dark:focus {
   }
 }
 
+@media (min-width: 768px) {
+  .contact {
+      margin-left :0px;
+  }
+}
 @media (min-width: 992px) {
   .float-lg-left {
     float: left !important;
   }
   .float-lg-right {
     float: right !important;
+  }
+  .contact{
+    margin-left :20px
   }
   .float-lg-none {
     float: none !important;
